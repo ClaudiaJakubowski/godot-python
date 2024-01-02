@@ -1,4 +1,4 @@
-from godot import exposed, InputEventKey, KEY_UP, KEY_DOWN, LineEdit
+from#godot#import exposed, InputEventKey, KEY_UP, KEY_DOWN, LineEdit
 
 
 @exposed(tool=True)
@@ -14,3 +14,4 @@ class InputBox(LineEdit):
             elif event.scancode == KEY_DOWN:
                 self.repl_node.down_pressed()
                 self.accept_event()
+ 
